@@ -28,6 +28,24 @@ export default function Chat() {
     //   show: true,
     // },
     // {
+    //   sender: "human",
+    //   type: "text",
+    //   data: "What is on the menu?",
+    //   show: true,
+    // },
+    // {
+    //   sender: "system",
+    //   type: "text",
+    //   data: "We have Cheeze Pizza, Veggie Pizza and Pepperoni Pizza",
+    //   show: true,
+    // },
+    // {
+    //   sender: "human",
+    //   type: "text",
+    //   data: "I want to place an order",
+    //   show: true,
+    // },
+    // {
     //   sender: "system",
     //   type: "order-form",
     //   // data: <OrderForm updateChatData={updateChatData} />,

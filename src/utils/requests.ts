@@ -1,6 +1,7 @@
 import axios from "axios";
 import { ChatDataInterface } from "./interfaces";
-const queryIndexUrl = "http://127.0.0.1:5000/api/queryIndex"
+// const queryIndexUrl = "http://127.0.0.1:5000/api/queryIndex"
+const queryIndexUrl = "https://form-chat.onrender.com/api/queryIndex"
 
 
 export async function queryIndex(prompt:String, chatHistory: any){
